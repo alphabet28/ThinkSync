@@ -1,12 +1,12 @@
 [build]
-  # Build command
-  command = "cd client && npm install && npm run build"
+  # Build command - run from client directory
+  command = "npm install && npm run build"
   
   # Directory to publish
-  publish = "client/build"
+  publish = "build"
   
-  # Base directory (optional)
-  base = "."
+  # Base directory - set to client folder
+  base = "client"
 
 [build.environment]
   NODE_VERSION = "18"
