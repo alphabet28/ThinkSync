@@ -1,0 +1,1 @@
+#!/bin/bash# Build script for Render deploymentecho "Building ThinkSync Frontend..."cd clientecho "Installing dependencies..."npm installecho "Building React app..."npm run buildecho "Build complete!"ls -la build/
